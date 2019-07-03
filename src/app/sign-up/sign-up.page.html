@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="BackHome()">
+        <ion-icon slot="icon-only" name="arrow-round-back" color="dark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Cadastro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <form>
+    <ion-item>
+      <ion-label position="floating">E-mail</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-row>
+      <ion-col style="text-align: center">
+          <ion-button type="submit">Cadastrar</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>

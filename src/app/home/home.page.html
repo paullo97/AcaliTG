@@ -21,8 +21,8 @@
           <ion-input type="password"></ion-input>
         </ion-item>
         <div class="bottons">
-          <ion-button>Login</ion-button>
-          <ion-button fill="outline">Não tem Cadastro ?</ion-button>
+          <ion-button (click)="SignIn()">Login</ion-button>
+          <ion-button fill="outline" (click)="SignUp()">Não tem Cadastro ?</ion-button>
         </div>
       </ion-col>
     </ion-row>
